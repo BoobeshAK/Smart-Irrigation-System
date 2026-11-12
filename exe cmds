@@ -1,0 +1,14 @@
+# Update Raspberry Pi
+sudo apt update
+
+# Install required libraries
+sudo apt install python3-spidev python3-rpi.gpio
+
+# Enable SPI
+sudo raspi-config
+
+# Open project folder
+cd Smart-Irrigation-System
+
+# Run Python program
+sudo python3 irrigation.py
